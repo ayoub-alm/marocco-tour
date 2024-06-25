@@ -20,12 +20,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 body{
-   
-    background: rgba( 111, 66, 193, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 12.5px );
--webkit-backdrop-filter: blur( 12.5px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /*    
+        background: rgba( 111, 66, 193, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
   
 }
 
@@ -145,7 +145,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .card:hover img {
-    transform: scaleY(1.05);
+    transform: scale(1.1);
     color: white;
     transition: transform 0.5s ease-in-out; /* Corrected transition property */
     text-align: center;
@@ -162,4 +162,15 @@ footer{
 position: static;
 bottom: 0px;
 
+}
+
+.custom-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+}
+
+/* Optionally, you can set your own styles */
+.custom-link:hover {
+  color: blue; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
 }
