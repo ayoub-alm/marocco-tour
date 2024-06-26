@@ -36,7 +36,7 @@
             <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
           </symbol>
         </svg>
-    
+
         <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
           <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
                   id="bd-theme"
@@ -100,36 +100,65 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <button class="btn btn-outline-success bg-white text-dark" ><a class="custom-link" href="./login.html">Login</a></button>
-        
+        <button class="btn btn-outline-success bg-white text-dark" ><a class="custom-link" href="login.html">Login</a></button>
       </form>
     </div>
   </div>
 </nav>
-        
 
-    
+
+
     <main>
-    
-      <div class="py-5 text-center container-fluid " style="background: url('header-image.jpg');background-size: cover;background-repeat: no-repeat;">
+
+      <div class="py-5  container-fluid " style="background: url('header-image.jpg');background-size: cover;background-repeat: no-repeat;">
         <div class="row py-lg-5 py-5" >
-          <div class="col-lg-6 col-md-8 mx-auto py-5 glass-bg" >
-            <h2 class="fw-bolder text-white" style="text-shadow: 4px 4px 4px grey;" >Morocco Tour</h2>
-            <h1 class="fw-bolder shadow-sm mt-4 " style="color: blueviolet;text-shadow: 1px 1px 4px grey;">Discover Morocco in a new way</h1>
-            <p>   
-                <div class="input-group mb-3 px-3 my-5">
-                    <input type="text" class="form-control" placeholder="find your distination" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <div class="col-lg-10 col-md-8 mx-auto py-5 glass-bg d-flex row" >
+            <div class="col-6 p-5">
+              <h2 class="fw-bolder display-4 text-center" style="text-shadow: 0px 2px 2px grey;color:blueviolet" >Morocco Tour</h2>
+              <h3 class="fw-bolder shadow-sm mt-4 text-center" style="color: white;text-shadow: 1px 2px 2px black;">Discover the best places in Morocco in a new way</h3>
+            </div>
+             <div class="col-6">
+              <br>
+                  <select class="form-select" aria-label="Default select example" aria-placeholder="Region">
+                    <option selected disabled="true">Region</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <br>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected disabled="true">City</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <br>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected disabled="true">Place</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <br>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected disabled="true">Category</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <br>
+                    <!-- <input type="text" class="form-control" placeholder="find your distination" aria-label="Recipient's username" aria-describedby="button-addon2"> -->
                     <button class="btn text-white" type="button" id="button-addon2" style="background-color: blueviolet;">Search</button>
-                </div>
-            </p>
+
+            </div>
             <br><br><br><br>
           </div>
         </div>
     </div>
-    
+
       <div class="album">
         <div class="container">
-          <h1 class="disaplay-1 text-center fw-bold my-5" style="color: blueviolet;"> Best reviews</h1>  
+          <h1 class="disaplay-1 text-center fw-bold my-5" style="color: blueviolet;"> Best reviews</h1>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
              <a href="showDistination.html" class="link">
@@ -148,7 +177,7 @@
                       <small class="text-body-secondary">9 mins</small>
                     </div>
                   </div>
-                  </div>
+              </div>
             </div>
             <div class="col">
               <div class="card shadow-sm">
@@ -184,7 +213,7 @@
                 </div>
               </div>
             </div>
-    
+
             <div class="col">
               <div class="card shadow-sm">
                                 <img src="card.webp" width="100%" height="225" alt="">
@@ -236,7 +265,7 @@
                 </div>
               </div>
             </div>
-    
+
             <div class="col">
               <div class="card shadow-sm">
                                 <img src="card.webp" width="100%" height="225" alt="">
@@ -293,9 +322,9 @@
           </div>
         </div>
       </div>
-    
+
     </main>
-    
+
     <footer class="text-body-secondary py-5 primary-color-bg mt-5">
       <div class="container">
         <p class="float-end mb-1">
@@ -306,8 +335,8 @@
       </div>
     </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    
-    
+
+
 </body>
 </html>
 
